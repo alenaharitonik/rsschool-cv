@@ -19,12 +19,10 @@ header {
     align-items: center;
     margin-bottom: -25px;
     
-    
 }
  h1 {
     font-family: fangsong;
     font-size: 75px;
-    
  }
 
  h2 {
@@ -32,8 +30,6 @@ header {
     font-size: 45px;
     padding-left: 0px;
  }
-
- 
 
  .conteiner {
     display: flex;
@@ -46,23 +42,19 @@ header {
      flex-flow: column wrap;
      color: white;
      background: black;
-   
  }
-
 
  .work {
     display: flex;
     flex-flow: column wrap;
      width: 70%;
      color:black;
-     background:white;
-     
+     background:white; 
  }
 
  section {
       margin: 30px;
  }
-
 
  ul {
    padding-left: 25px;
