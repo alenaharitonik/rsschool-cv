@@ -1,0 +1,79 @@
+body {
+    font-family: fangsong;
+    font-size: 20px;
+ }
+
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid black;
+}
+
+header {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: -25px;
+    
+}
+ h1 {
+    font-family: fangsong;
+    font-size: 75px;
+ }
+
+ h2 {
+    font-family: fangsong;
+    font-size: 45px;
+    padding-left: 0px;
+ }
+
+ .conteiner {
+    display: flex;
+    width: 100%;
+ }
+
+ .left {
+    display: flex;
+     width: 30%;
+     flex-flow: column wrap;
+     color: white;
+     background: black;
+ }
+
+ .work {
+    display: flex;
+    flex-flow: column wrap;
+     width: 70%;
+     color:black;
+     background:white; 
+ }
+
+ section {
+      margin: 30px;
+ }
+
+ ul {
+   padding-left: 25px;
+ }
+
+ footer {
+   display: flex;
+   background-color: darkgreen;
+   justify-content: center;
+   font-weight: bolder;
+   font-size: 25px;
+}
+
+
+
+ 
+
+
+    
+   
+    
+ 
