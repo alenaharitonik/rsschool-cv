@@ -9,30 +9,59 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="avatar.jpg" alt="foto avatar" width="360" />
-        <h1>
-          Alena
-          <br />
-          Kharytonik
-        </h1>
+        <div class="header_wrapper">
+          <nav class="header_nav">
+            <ul class="header_list">
+              <li class="header_item">
+                <a href="#summary" class="header_link">Summary</a>
+              </li>
+              <li class="header_item">
+                <a href="#code_example" class="header_link">Code example</a>
+              </li>
+              <li class="header_item">
+                <a href="#experience" class="header_link">Experience</a>
+              </li>
+              <li class="header_item">
+                <a href="#education" class="header_link">Education</a>
+              </li>
+              <li class="header_item">
+                <a href="#english" class="header_link">English</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="welcome">
+            <img src="avatar.jpg" alt="foto avatar" width="360" />
+            <h1>
+              Alena
+              <br />
+              Kharytonik
+            </h1>
+          </div>
+        </div>
       </header>
+      
       <main>
         <div class="conteiner">
           <aside class="left">
             <section>
-              <h2>Contacs</h2>
+              <h4>Contacs</h4>
               <ul>
                 <li>
-                  e-mail/
-                  <br />
-                  alenaharitonik@mail.ru
+                  e-mail:
+                  <a href="mailto:alenaharitonik@mail.ru" class="contacts_link">
+                    alenaharitonik@mail.ru
+                  </a>
                 </li>
-                <li>github.com/alenaharitonik</li>
+                <li>phone:
+                   <a href="tel:+375298872346" class="contacts_link">
+                     +375 (29) 887 23 46
+                   </a>
+                </li>
                 <li>Belarus, Grodno</li>
               </ul>
             </section>
             <section>
-              <h2>Skills</h2>
+              <h4>Skills</h4>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -42,7 +71,7 @@
             </section>
           </aside>
           <div class="work">
-            <section>
+            <section id="summary">
               <h2>Summary</h2>
               <p>
                 I want to try myself in the field of IT, maybe I will become an
@@ -51,43 +80,47 @@
                 to learn.
               </p>
             </section>
-            <section>
+            <section id="code_example">
               <h2>Code example</h2>
-              <a href="https://github.com/alenaharitonik">GitHub</a>
+              <p>function solution(str){ <br>
+                return str.split('').reverse().join(''); <br>
+              }</p>
             </section>
-            <section>
+            <section id="experience">
               <h2>Experience</h2>
               <p>GIAP, power supply design engineer, 7 years of experience</p>
+              <p>Unfortunately, I still have no experience in the IT sphere,
+                 so the image of the project I completed looks like this)</p>
+                 <a href="https://alenaharitonik.github.io/rsschool-cv/" target="_blank">
+                  <img src="/Screenshot_2.jpg" alt="project" width="700" class="project">
+                 </a>
             </section>
-            <section>
+            <section id="education">
               <h2>Education</h2>
               <p>GSTU them. B.Y. Sukhoi, power engineer</p>
               <p>RS School 2021q1</p>
             </section>
-            <section>
+            <section id="english">
               <h2>English</h2>
               <p>English(A1)</p>
             </section>
           </div>
         </div>
         <footer>
-          <p>September, 2021</p>
+          <div class="footer_wrapper">
+            <h3>September, 2021</h3>
           <nav>
-            <a href="https://rs.school/js/">
+            <a href="https://rs.school/js/" class="rs_school_js">
               <img
                 src="./rs_school_js.svg"
-                alt="rs_school_js"
-                class="rs_school_js" 
+                alt="rs_school_js" 
               />
             </a>
             <a href="https://github.com/alenaharitonik">
-              <img
-                src="./logo-github.svg"
-                alt="logo_github"
-                class="logo_github"
-              />
+               <div class="logo"></div>
             </a>
           </nav>
+          </div>
         </footer>
       </main>
     </div>

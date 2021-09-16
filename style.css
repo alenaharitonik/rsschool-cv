@@ -1,31 +1,75 @@
+html {
+   scroll-behavior: smooth;
+ }
+
 body {
     font-family: fangsong;
     font-size: 20px;
+    
  }
 
 .wrapper {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    border:2px solid black;
+    border:2px solid black;  
 }
 
 header {
+   
+   width: 100%;
+}
+
+
+.header_nav {
+   position: absolute;
+   background-color: black;
+   margin-left: 360px;
+   width: 840px;
+   
+}
+
+.header_list {
+   display: flex;
+   justify-content: flex-end;
+   
+ }
+
+ .header_link {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+.header_link:hover,
+.header_link:active {
+  color: darkgreen;
+  transition: 0.8s;
+}
+
+ .header_item {
+   list-style-type: none;
+ }
+
+
+
+.welcome {
     background-color: darkgreen;
     display: flex;
     flex-direction: row;
     width: 100%;
     gap: 100px;
-    align-items: center;
-    margin-bottom: -25px;
+    align-items: center; 
     
 }
+
+
  h1 {
     font-family: fangsong;
     font-size: 75px;
  }
 
- h2 {
+ h2,h4 {
     font-family: fangsong;
     font-size: 45px;
     padding-left: 0px;
@@ -84,6 +128,52 @@ footer nav a{
    width: 40px;
 }
 
+.logo {
+   width: 40px;
+   height: 40px;
+   background-color: black;
+   -webkit-mask-image: url("/logo-github.svg");
+   -webkit-mask-size: cover;
+   transition: 1.5s;
+   cursor: pointer;
+   border-radius: 100%;
+ }
+
+ .logo:hover {
+   background-color: white;
+ }
+
+ .footer_wrapper {
+    display: flex;
+ }
+
+ footer nav {
+    display: flex;
+    align-items: center;
+ }
+
+ .contacts_link { 
+   text-decoration: none;
+   color: white;
+ }
+
+ .contacts_link:hover,
+ .contacts_link:active {
+  color: darkgreen;
+  transition: 0.8s;
+}
+
+.rs_school_js:hover,
+.rs_school_js:active {
+   opacity: 0.5;
+   transition: 0.8s;
+}
+
+ 
+.project:hover { 
+   opacity: 0.5;
+   transition: 0.8s;
+ }
 
  
 
@@ -91,4 +181,3 @@ footer nav a{
     
    
     
- 
