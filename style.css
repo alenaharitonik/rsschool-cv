@@ -204,9 +204,6 @@ footer nav a {
 .logo {
   width: 40px;
   height: 40px;
-  background-color: #000;
-  -webkit-mask-image: url("https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg");
-  -webkit-mask-size: cover;
   transition: 1.5s;
   cursor: pointer;
   border-radius: 100%;
@@ -214,7 +211,8 @@ footer nav a {
 }
 
 .logo:hover {
-  background-color: white;
+  opacity: 0.5;
+  transition: 0.8s;
 }
 
 .footer_wrapper {
